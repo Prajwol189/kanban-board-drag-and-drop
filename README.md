@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+# Kanban Board Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Interactive Task and Column Management  
+This project implements an interactive Kanban board application where users can manage tasks and columns with drag-and-drop functionality and dynamic content updates.  
+<br/>
 
-Currently, two official plugins are available:
+### Technology Choices and Rationale  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**i. React**  
+Used as the primary framework for building the component-based user interface.  
+**Rationale**: React ensures a responsive and modular application with seamless state management.  
+<br/>
 
-## Expanding the ESLint configuration
+**ii. TypeScript**  
+Adds static typing to the project, enhancing code reliability and maintainability.  
+**Rationale**: TypeScript reduces runtime errors and improves developer productivity.  
+<br/>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**iii. Tailwind CSS**  
+Provides a utility-first approach for styling components.  
+**Rationale**: Tailwind accelerates UI development and enforces consistency across the application.  
+<br/>
 
-- Configure the top-level `parserOptions` property like this:
+**iv. @dnd-kit**  
+Used for implementing drag-and-drop functionality for tasks and columns.  
+**Rationale**: Lightweight and highly customizable, it enables a flexible drag-and-drop experience.  
+<br/>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Time Spent on the Project  
+Approximately **5 hours**, broken down as follows:  
+- **Planning and Setup**: 30 minutes  
+- **Development**: 4 hours  
+- **Styling and Testing**: 1 hours
+<br/>
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Live Demo Link  
+[Kanban Board Live Demo](https://vrit-technology-intern-task-b.vercel.app/)  
+<br/>
