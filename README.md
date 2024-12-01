@@ -36,3 +36,6 @@ Approximately **5 hours**, broken down as follows:
 ### Live Demo Link  
 [Kanban Board Live Demo](https://vrit-technology-intern-task-b.vercel.app/)  
 <br/>
+### Live Video Link  
+[Video Demo](https://drive.google.com/file/d/1BWDYtcIMoFMfobZY84gLdCvK-soF7BP7/view?usp=sharing)
+<br/>
